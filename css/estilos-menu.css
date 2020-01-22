@@ -23,7 +23,6 @@ header nav {
     position: absolute;
     width: 100%;
     bottom: 0%;
-    z-index: 50;
 }
 
 header nav ul li span {
@@ -108,7 +107,7 @@ header nav ul li .icon-down-open {
         background: #1ce2e2;
         top: 5px;
         right: 2%;
-        z-index: 40;
+        z-index: 80;
         cursor: pointer;
     }
 
@@ -136,6 +135,7 @@ header nav ul li .icon-down-open {
         overflow: scroll;
         top: 0;
         background: #073763;
+        z-index: 100;
     }
 
     header nav ul {
@@ -182,7 +182,7 @@ header nav ul li .icon-down-open {
         background: #1ce2e2;
         top: 5px;
         left: 2%;
-        z-index: 40;
+        z-index: 80;
         cursor: pointer;
         
     }
@@ -200,6 +200,6 @@ header nav ul li .icon-down-open {
     
     .gl-movil{
         position: fixed;
-        z-index: 45;
+        z-index: 90;
     }
 }
