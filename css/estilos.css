@@ -206,10 +206,6 @@ footer ul li a{
     display: block;
 }
 
-.gcse-search {
-    z-index: 1000;
-    
-}
 
 @media screen and (max-width: 940px) {
 
