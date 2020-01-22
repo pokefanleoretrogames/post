@@ -93,12 +93,14 @@ header nav ul li .icon-down-open {
     margin-right: 0px;
 }
 
-
+.buscar-bar{
+        display: none;
+}
 
 /* ---------------ESTILOS EN MOVIL--------------- */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
 
     .menu-bar {
         position: fixed;
@@ -106,7 +108,7 @@ header nav ul li .icon-down-open {
         background: #1ce2e2;
         top: 5px;
         right: 2%;
-        z-index: 100;
+        z-index: 98;
         cursor: pointer;
     }
 
@@ -173,5 +175,31 @@ header nav ul li .icon-down-open {
 
     header nav ul li .menu-hijo li {
         border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+    .buscar-bar{
+        position: fixed;
+        display: block;
+        background: #1ce2e2;
+        top: 5px;
+        left: 2%;
+        z-index: 98;
+        cursor: pointer;
+        
+    }
+    .buscar-bar .boton-buscar {
+        display: block;
+        padding: 15px 10px;
+        color: white;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+    }
+    .buscar-bar span {
+        font-size: 25px;
+    }
+    
+    .gl-movil{
+        position: fixed;
+        z-index: 99;
     }
 }

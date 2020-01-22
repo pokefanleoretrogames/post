@@ -28,6 +28,12 @@ $(".menu-hijo").click(function (p) {
     p.stopPropagation();
 })
 
+// MOSTRAMOS BUSQUEDA DE MOVIL 
+
+
+$(".buscar-bar").click(function () {
+    $(this).siblings(".gl-movil").slideToggle("fast");
+});
 
 // SCRIPTS DE SLIDE
 
