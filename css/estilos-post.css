@@ -1,0 +1,112 @@
+.post {
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px 0;
+}
+
+.post-encabezado {
+    display: flex;
+    margin: 0 5%;
+}
+
+.post-encabezado img {
+    width: 180px;
+    height: 100%;
+}
+
+.post-encabezado p {
+    padding: 0px 10px;
+    margin: 0;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.post h2 {
+    background: rgba(25, 54, 80, 0.8);
+    margin: 10px 0;
+}
+
+.requicitos p {
+    left: 15%;
+    width: 70%;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.instrucciones p {
+    left: 5%;
+    position: relative;
+    width: 90%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.capturas img {
+    width: 90%;
+    border: 4px ridge;
+    border-style: double
+}
+
+.video-instalacion {
+    position: relative;
+    padding-bottom: 47.58%;
+    /* 16/9 ratio */
+    padding-top: 30px;
+    /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-instalacion iframe,
+.video-instalacion object,
+.video-instalacion embed {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+.video-instalacion img {
+    width: 100%;
+}
+
+.lista-links-instaladores a {
+    display: block;
+    text-decoration: none;
+    color: #073763;
+    font-size: 23px;
+    background: none;
+    margin: 0 100px;
+    padding: .5em;
+    border: 3px solid #073763;
+}
+
+.lista-links-instaladores a:hover {
+    background: #073763;
+    color: white;
+}
+
+
+
+
+@media (max-width: 940px) {
+    .post-encabezado {
+        width: auto;
+        display: block;
+    }
+
+    .video-instalacion iframe,
+    .video-instalacion object,
+    .video-instalacion embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}

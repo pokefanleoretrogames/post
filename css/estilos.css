@@ -2,7 +2,7 @@
 @import url(estilos-prueba.css);
 @import url(estilos-slides.css);
 @import url(swiper.min.css);
-
+@import url(estilos-post.css);
 
 body {
     background-image: url(../images/background.jpg);
