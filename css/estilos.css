@@ -1,0 +1,236 @@
+@import url(estilos-menu.css);
+@import url(estilos-prueba.css);
+@import url(estilos-slides.css);
+@import url(swiper.min.css);
+
+
+body {
+    background: #073763;
+
+}
+
+.hoja {
+    width: 96%;
+    max-width: 1300px;
+    position: relative;
+    left: 2%;
+    background: #adbdcc;
+    position: relative;
+    margin-top: 5px;
+}
+
+header {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+.encabezado {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    right: 0;
+    height: 100%;
+    top: 0;
+    width: 100%;
+}
+
+.encabezado img {
+    height: 100%;
+    width: 100%;
+}
+
+.principal {
+    padding: 10px;
+    width: 80%;
+    display: inline-block;
+}
+
+.principal h3 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: rgba(50, 50, 60, 1);
+    color: white;
+    padding: 8px 10px;
+}
+
+.principal h3 a {
+    color: white;
+    margin-left: 20px;
+    float: right;
+    padding-left: 15px;
+    border-left: 1px solid #fff;
+
+}
+
+/* --------------INICIO DE BLOG ---------------- */
+.principal .blog {
+    border: 1px solid #FFF;
+    overflow-y: auto;
+}
+
+.principal .blog .entrada {
+    background: rgba(25, 54, 80, 1);
+    border: 1px solid #fff;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+}
+
+.principal .blog .entrada:hover {
+    background: #eee;
+
+}
+
+.principal .blog .entrada img {
+    width: 160px;
+    height: 100%;
+    margin: auto 0;
+}
+
+.principal .blog .entrada .texto-entrada {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+    height: 100%;
+    margin: auto 0;
+}
+
+.principal .blog .entrada .texto-entrada h4 {
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border-left: 5px solid #fff;
+}
+
+.principal .blog .entrada .texto-entrada p {
+    height: 100%;
+}
+
+.blog span {
+    padding: 20px;
+    margin: auto auto;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+/* ---------- Fin de entradas --------¿-- */
+
+aside {
+    width: 20%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    float: right;
+    position: sticky;
+    top: -320px;
+
+}
+
+.bloque {
+    margin-bottom: 10px
+}
+
+aside h3 {
+    text-align: center;
+    color: white;
+    background: #073763;
+    padding: 5px;
+    font-size: 15px;
+}
+
+aside img {
+    width: 100%;
+    display: block;
+}
+
+
+footer {
+    display: block;
+    position: static;
+    background: rgba(34, 112, 147, 1);
+    padding: 10px;
+    color: rgba(255,255,255,0.6);
+    height: 120px;
+    margin: 0 auto;
+}
+
+footer p {
+    width: 100%;;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer ul {
+    display: flex;
+    margin: 0 auto;
+    position: static;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+footer ul li {
+    padding: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor-fb {
+    background: #fff;
+}
+.fb-comments {
+    background: #fff;
+    display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .principal {
+        width: 100%;
+    }
+
+    aside {
+        position: static;
+        float: none;
+        width: 80%;
+        padding-left: 10px;
+        margin: 0 auto;
+    }
+    .principal .blog .entrada .texto-entrada h4{
+        border-right: 5px solid #fff;
+    }
+    .principal .blog .entrada {
+        display: block;
+        text-align: center;
+    }
+
+    .principal .blog .entrada .texto-entrada {
+        width: 100%;
+        height: 100px;
+        padding: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+    }
+    .blog span {
+    padding: 2px;
+    }
+    
+    footer {
+        height: auto;
+    }
+    footer ul {
+        flex-wrap: wrap;
+    }
+}
+
