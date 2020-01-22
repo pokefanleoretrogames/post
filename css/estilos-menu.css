@@ -199,7 +199,11 @@ header nav ul li .icon-down-open {
     }
     
     .gl-movil{
+        left: 0;
         position: fixed;
+        display: block;
         z-index: 90;
+        width: 100%;
+        border: 1px solid #aaa;
     }
 }

@@ -1,16 +1,15 @@
 
-.hoja .swiper-container {
+.hoja .swiper-container {     /* ----SWIPER DE LA CABECERA----- */
     display: block;
     width: 100%;
-    padding: 10px 10px 10px 10px;
-    background: rgba(50,50,60,1);
+    padding: 10px 0px 0px 0px;
     z-index: 0;
 }
-.principal .swiper-container {
+.principal .swiper-container {    /* ----SWIPER DEL CUERPO----- */
     display: block;
     width: 100%;
     padding: 0px 10px 10px 10px;
-    background: rgba(50,50,60,1);
+    background: #227093;
 }
 
 .swiper-slide img {
@@ -25,6 +24,12 @@
     height: 280px;
     width: 200px;
 }
+.principal .swiper-wrapper .swiper-slide{
+    width: 160px;
+    height: auto;
+}
+
+
 .swiper-container .swiper-button-next {
     background: rgba(34, 112, 147, 0);
     border: 1px solid rgba(255,255,255,0);
