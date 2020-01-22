@@ -283,5 +283,25 @@ footer ul li a {
     footer ul {
         flex-wrap: wrap;
     }
+    
+    .ir-arriba {
+        position: fixed;
+        display: none;
+        background: #1ce2e2;
+        bottom: 5px;
+        right: 2%;
+        z-index: 80;
+        cursor: pointer;
+        transform: rotate(-180deg);
+    }
+    .ir-arriba span{
+        display: block;
+        padding: 5px 5px;
+        color: white;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+    }
 
 }
