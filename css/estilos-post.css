@@ -21,7 +21,8 @@
 
 .post-encabezado p {
     padding: 0px 10px;
-    margin: auto auto;;
+    margin: auto auto;
+    ;
     text-align: justify;
     font-size: 17px;
 }
@@ -87,7 +88,7 @@
     color: #073763;
     font-size: 23px;
     background: none;
-    margin: 0 100px;
+    margin: 0 190px;
     padding: .5em;
     border: 3px solid #073763;
 }
@@ -97,7 +98,89 @@
     color: white;
 }
 
+.daemond-unico a {
+    display: inline-block;
+}
 
+.daemond-unico img {
+    width: auto;
+    margin: 5px auto;
+    width: 100%;
+}
+
+.daemond-unico a:last-child {
+    display: block;
+    text-decoration: none;
+    color: #073763;
+    font-size: 23px;
+    background: none;
+    margin: 0 150px;
+    padding: .5em;
+    border: 3px solid #073763;
+}
+
+.daemond-unico a:last-child:hover {
+    background: #073763;
+    color: white;
+}
+
+.daemond-lista {
+    position: relative;
+}
+
+.daemond-lista a {
+    display: block;
+    text-decoration: none;
+    color: #073763;
+    font-size: 23px;
+    background: none;
+    margin: 0 150px;
+    padding: .5em;
+    border: 3px solid #073763;
+}
+
+.daemond-lista a:hover {
+    background: #073763;
+    color: white;
+}
+
+.daemond-lista a:nth-last-child(3) {
+    border: none;
+    background: none;
+    margin: 0 37.5%;
+    width: 25%;
+}
+
+.daemond-lista a:nth-last-child(3) img {
+    display: inherit;
+    width: 100%;
+}
+
+.lista-link-portadas {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.lista-link-portadas img {
+    display: inherit;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.lista-link-portadas a:nth-last-child(4n+1) {
+    background: red;
+    color: #073763;
+    font-size: 23px;
+    background: none;
+    padding: .5em;
+    border: 3px solid #073763;
+    display: block;
+}
+
+.lista-link-portadas a:nth-last-child(4n+1):hover {
+    background: #073763;
+    color: white;
+}
 
 
 @media (max-width: 940px) {
@@ -121,4 +204,30 @@
         margin: 0 auto;
     }
 
+    .daemond-unico a:last-child {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .daemond-lista a {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .daemond-lista a:nth-last-child(3) {
+        border: none;
+        background: none;
+        margin: 0 25%;
+        width: 50%;
+    }
+
+    .lista-link-portadas {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .lista-link-portadas img {
+        width: 80%;
+    }
 }
