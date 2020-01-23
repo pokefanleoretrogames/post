@@ -81,7 +81,7 @@ $(document).ready(function(){
     
     $(window).scroll(function(){
         if( $(this).scrollTop() > 0){
-                $(".ir-arriba").slideDown(300);
+                $(".ir-arriba").slideDown(1000);
            } else {
                 $(".ir-arriba").slideUp(300);
            }

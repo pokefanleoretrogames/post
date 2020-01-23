@@ -1,14 +1,17 @@
 .post {
     text-align: center;
     width: 100%;
-    background: rgba(0, 0, 0, 0);
-    color: white;
+    background: rgba(255, 255, 255, .7);
     padding: 10px 0;
+    color: rgba(7, 55, 99, 1);
 }
+
+.post h1 {}
 
 .post-encabezado {
     display: flex;
     margin: 0 5%;
+    font-weight: bold;
 }
 
 .post-encabezado img {
@@ -18,21 +21,25 @@
 
 .post-encabezado p {
     padding: 0px 10px;
-    margin: 0;
+    margin: auto auto;;
     text-align: justify;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .post h2 {
-    background: rgba(25, 54, 80, 0.8);
+    background: rgba(7, 55, 99, 1);
     margin: 10px 0;
+    color: white;
+    padding: 10px;
+    border-right: 15px solid rgba(0, 0, 0, .3);
+    border-left: 15px solid rgba(0, 0, 0, .3);
 }
 
 .requicitos p {
     left: 15%;
     width: 70%;
     position: relative;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -40,7 +47,7 @@
     left: 5%;
     position: relative;
     width: 90%;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -104,9 +111,14 @@
     .video-instalacion embed {
         position: absolute;
         top: 0;
-        left: 0;
-        width: 100%;
+        left: 0.5%;
+        width: 99%;
         height: 100%;
+    }
+
+    .lista-links-instaladores a {
+        width: 90%;
+        margin: 0 auto;
     }
 
 }
