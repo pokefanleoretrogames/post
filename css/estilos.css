@@ -3,6 +3,7 @@
 @import url(estilos-slides.css);
 @import url(swiper.min.css);
 @import url(estilos-post.css);
+@import url(estilos-portadas.css);
 
 body {
     background-image: url(../images/background.jpg);
