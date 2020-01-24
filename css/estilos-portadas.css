@@ -21,7 +21,7 @@
     height: 220px;
     position: relative;
     -webkit-perspective: 700;
-    margin: 5px 1px px 1px;
+    margin: 5px 1px 0px 1px;
 }
 
 .portada-post {
