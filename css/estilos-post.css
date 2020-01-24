@@ -157,6 +157,7 @@
 .lista-link-portadas {
     width: 60%;
     margin: 0 20%;
+    display: none;
 }
 
 .lista-link-portadas img {

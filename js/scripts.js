@@ -89,12 +89,18 @@ $(document).ready(function(){
     
 });
 
+$(".mostrar-enlaces").click(function () {
+    $(this).siblings(".lista-link-portadas").slideToggle();
+});
 
 
+function quitar_publicidad(){
+		document.getElementById("publicidad").style.display = "none";
+}
 
-
-
-
+function quitar_publicidad1(){
+		document.getElementById("publicidad1").style.display = "none";
+}
 
 
 
