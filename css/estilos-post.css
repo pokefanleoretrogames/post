@@ -80,6 +80,14 @@
     width: 100%;
 }
 
+.unico-enlace {
+    display: none;
+    padding: 20px;
+}
+.lista-links-instaladores{
+    margin: 10px;
+    display: none;
+}
 .lista-links-instaladores a {
     display: block;
     text-decoration: none;
@@ -94,6 +102,9 @@
 .lista-links-instaladores a:hover {
     background: #073763;
     color: white;
+}
+.daemond-unico {
+    display: none;
 }
 
 .daemond-unico a {
@@ -124,6 +135,8 @@
 
 .daemond-lista {
     position: relative;
+    margin: 10px;
+    display: none;
 }
 
 .daemond-lista a {
@@ -167,7 +180,6 @@
 }
 
 .lista-link-portadas a:nth-last-child(4n+1) {
-    background: red;
     color: #073763;
     font-size: 23px;
     background: none;
@@ -180,7 +192,13 @@
     background: #073763;
     color: white;
 }
-
+.mostrar-enlaces {
+    padding: 20px;
+    font-size: 20px;
+}
+.mostrar-enlaces:hover{
+    border: 2px solid #000;
+}
 
 @media (max-width: 940px) {
     .post-encabezado {

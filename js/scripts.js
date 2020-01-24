@@ -71,6 +71,7 @@ window.fbAsyncInit = function() {
     });
   };
 
+// BOTON DE SUBIR
 
 $(document).ready(function(){
     $(".ir-arriba").click(function(){
@@ -89,10 +90,17 @@ $(document).ready(function(){
     
 });
 
+
+// MOSTRAR LOS ENLACES
+
 $(".mostrar-enlaces").click(function () {
-    $(this).siblings(".lista-link-portadas").slideToggle();
+    $(this).siblings(".lista-link-portadas , .unico-enlace , .daemond-unico , .lista-links-instaladores , .daemond-lista").slideToggle();
 });
 
+
+
+
+// PUBLIDIDAD
 
 function quitar_publicidad(){
 		document.getElementById("publicidad").style.display = "none";
