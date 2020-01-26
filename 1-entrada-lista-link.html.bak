@@ -5,7 +5,6 @@
     <title>Crysis</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta name="propeller" content="0ca222c8453b3406f3bd9c62668c4db7">
     <script src="js/jquery-3.4.1.js"></script>
     <script async defer src="https://connect.facebook.net/es_LA/sdk.js"></script>
     <script src="js/swiper.min.js"></script>
@@ -147,14 +146,14 @@
                 </section>
                 <h2>Enlaces</h2>
                 <input type="submit" value="MOSTRAR ENLACES" class="mostrar-enlaces">
-                <section class="daemond-lista">
+                <section class="lista-links-instaladores">
+                   
                     <a href="http://onvictinitor.com/afu.php?zoneid=2785935" target="_blank" id="publicidad" onclick="quitar_publicidad()"></a>
+
                     <a href="#" target="_blank">Descargar Parte 1</a><br>
                     <a href="#" target="_blank">Descargar Parte 2</a><br>
                     <a href="#" target="_blank">Descargar Parte 3</a><br>
                     <a href="#" target="_blank">Descargar Parte 4</a>
-                    <a href="https://redirigiendoenlaces.blogspot.com/p/daemondtools.html" target="_blank"><img src="https://i.ibb.co/W09FPRf/Daemon-tools-logo.png" alt=""></a><br>
-                    <a href="https://redirigiendoenlaces.blogspot.com/p/daemondtools.html" target="_blank">Descargar Daemond Tools Lite</a>
                 </section>
             </div>
             <!-- ----------------------- COMENTARIOS FACEBOOK DENTRO DE PRINCIPAL AL FINAL --------------------------- -->
