@@ -51,5 +51,14 @@ ________________________________________________________________________________
         <!-- ------------------ Busqueda de Movil ENTRE HEADER Y PRINCIPAL------------------ -->
 
 
+------------------------------ pblicidad ---------------------
+
+
+
+
+<a href="http://onvictinitor.com/afu.php?zoneid=2785935" target="_blank" id="publicidad" onclick="quitar_publicidad()"></a>
+
+<a href="http://onvictinitor.com/afu.php?zoneid=2785935" target="_blank" id="publicidad1" onclick="quitar_publicidad1()"></a>
+
 
 
