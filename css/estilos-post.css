@@ -26,12 +26,13 @@
 }
 
 .post h2 {
-    background: rgba(7, 55, 99, 1);
+    background: #227093;
     margin: 10px 0;
     color: white;
     padding: 10px;
     border-right: 15px solid rgba(0, 0, 0, .3);
     border-left: 15px solid rgba(0, 0, 0, .3);
+    text-transform: uppercase;
 }
 
 .requicitos p {
@@ -78,6 +79,7 @@
 
 .video-instalacion img {
     width: 100%;
+    
 }
 
 .unico-enlace {
@@ -246,5 +248,8 @@
 
     .lista-link-portadas img {
         width: 80%;
+    }
+    .img-prev {
+        width: 100%;
     }
 }
