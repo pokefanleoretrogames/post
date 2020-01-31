@@ -96,9 +96,10 @@
     color: #073763;
     font-size: 23px;
     background: none;
-    margin: 0 190px;
+    margin: 0 auto;
     padding: .5em;
     border: 3px solid #073763;
+    width: 75%;
 }
 
 .lista-links-instaladores a:hover {
@@ -147,9 +148,10 @@
     color: #073763;
     font-size: 23px;
     background: none;
-    margin: 0 150px;
+    margin: 0 auto;
     padding: .5em;
     border: 3px solid #073763;
+    width: 75%;
 }
 
 .daemond-lista a:hover {
@@ -171,7 +173,7 @@
 
 .lista-link-portadas {
     width: 60%;
-    margin: 0 20%;
+    margin: 0 auto;
     display: none;
 }
 

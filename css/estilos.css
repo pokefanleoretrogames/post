@@ -15,7 +15,6 @@ body {
 
 .hoja {
     width: 96%;
-    max-width: 1300px;
     position: relative;
     left: 2%;
     background: rgba(7, 55, 99, 0.8);
@@ -99,9 +98,13 @@ header img {
 }
 
 .principal .blog .entrada img {
-    width: 160px;
+    width: 180px;
     height: 100%;
     margin: auto 0;
+}
+
+.principal .blog .cuadrado img{
+    width: 180px;
 }
 
 .principal .blog .entrada .texto-entrada {
@@ -260,6 +263,7 @@ footer ul li a {
     top: 0;
     left: 0;
     background: none;
+    border: none;
 }
 #publicidad1 {
     position: fixed;
@@ -269,6 +273,7 @@ footer ul li a {
     top: 0;
     left: 0;
     background: none;
+    border: none;
 }
 
 @media screen and (max-width: 940px) {
@@ -300,6 +305,9 @@ footer ul li a {
     .principal .blog .entrada {
         display: block;
         text-align: center;
+    }
+    .principal .blog .entrada img {
+        width: 90%;
     }
 
     .principal .blog .entrada .texto-entrada {
