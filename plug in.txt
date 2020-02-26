@@ -61,4 +61,12 @@ ________________________________________________________________________________
 <a href="http://onvictinitor.com/afu.php?zoneid=2785935" target="_blank" id="publicidad1" onclick="quitar_publicidad1()"></a>
 
 
+--------------------------Redireccion de Blogger a esta pagina-----------------------------
+
+<meta http-equiv="Refresh" content="0;url=#">
+<div class="redirigir">Redirigiendo al sitio acrualizado en 1 segundo...</div>
+
+-------------------------------------------------------------------------------------------
+
+
 
