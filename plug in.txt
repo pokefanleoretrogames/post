@@ -64,7 +64,7 @@ ________________________________________________________________________________
 --------------------------Redireccion de Blogger a esta pagina-----------------------------
 
 <meta http-equiv="Refresh" content="0;url=#">
-<div class="redirigir">Redirigiendo al sitio acrualizado en 1 segundo...</div>
+<div class="redirigir">Redirigiendo al sitio actualizado en 1 segundo...</div>
 
 -------------------------------------------------------------------------------------------
 
