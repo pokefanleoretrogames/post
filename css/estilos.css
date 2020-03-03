@@ -101,6 +101,7 @@ header img {
     width: 180px;
     height: 100%;
     margin: auto 0;
+    border: 1px solid white;
 }
 
 .principal .blog .cuadrado img{
