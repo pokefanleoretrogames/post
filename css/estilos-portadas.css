@@ -28,7 +28,10 @@
     width: 180px;
     height: 180px;
 }
-
+.psp {
+    width: 160px;
+    height: 260px;
+}
 .portada-post {
     width: 100%;
     height: 100%;
@@ -120,7 +123,10 @@
         width: 180px;
         height: 180px;
     }
-
+    .psp {
+    width: 160px;
+    height: 260px;
+}
 
 
 
