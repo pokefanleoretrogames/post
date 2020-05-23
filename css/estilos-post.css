@@ -90,6 +90,10 @@
     display: none;
     padding: 20px;
 }
+.unico-enlace img {
+    margin: 5px auto;
+    width: 100%;
+}
 .lista-links-instaladores{
     margin: 10px;
     display: none;
