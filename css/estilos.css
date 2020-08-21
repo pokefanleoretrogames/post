@@ -357,12 +357,12 @@ footer ul li a {
     }
     
     .uso-cookies {
-    width: 90%;
+    width: 100%;
     background: #fff;
     margin: 0 auto;
-    left: 5%;
+    left: 0;
     right: inherit;
-    bottom: 5px;
+    bottom: 0px;
     position: fixed;
     border: 3px Solid #7a2020;
     font-weight: bold;
