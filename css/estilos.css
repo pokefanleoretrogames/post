@@ -158,6 +158,13 @@ aside {
     z-index: 100;
 }
 
+.bloque p{
+    padding: 2px;
+    background: #fff;
+    color: #227093;
+    text-decoration: underline;
+}
+
 .gl-movil {
     display: none;
 }
@@ -183,7 +190,24 @@ aside img {
     display: block;
 }
 
-
+.uso-cookies {
+    width: 23%;
+    background: #fff;
+    bottom: 5px;
+    right: 2%;
+    position: fixed;
+    margin: 10px;
+    display: block;
+    border: 3px Solid #7a2020;
+    font-weight: bold;
+    color: #7a2020;
+}
+.uso-cookies h3{
+    background: #7a2020;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
 footer {
     display: block;
     position: static;
@@ -196,7 +220,6 @@ footer {
 
 footer p {
     width: 100%;
-    ;
     text-align: center;
     font-size: 15px;
 }
@@ -332,6 +355,18 @@ footer ul li a {
     footer ul {
         flex-wrap: wrap;
     }
+    
+    .uso-cookies {
+    width: 90%;
+    background: #fff;
+    margin: 0 auto;
+    left: 5%;
+    right: inherit;
+    bottom: 5px;
+    position: fixed;
+    border: 3px Solid #7a2020;
+    font-weight: bold;
+}
     
     .ir-arriba {
         position: fixed;

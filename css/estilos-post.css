@@ -92,7 +92,7 @@
 }
 .unico-enlace img {
     margin: 5px auto;
-    width: 100%;
+    width: 50%;
 }
 .lista-links-instaladores{
     margin: 10px;
@@ -227,6 +227,10 @@
         width: 99%;
         height: 100%;
     }
+    .unico-enlace img {
+    margin: 5px auto;
+    width: 100%;
+}
 
     .lista-links-instaladores a {
         width: 90%;

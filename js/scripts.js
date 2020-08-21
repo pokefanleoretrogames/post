@@ -90,7 +90,20 @@ $(document).ready(function(){
     
 });
 
+// Cookies
 
+$(document).ready(function(){
+    
+    
+    $(window).scroll(function(){
+        if( $(this).scrollTop() > 300){
+                $(".uso-cookies").slideUp(300);
+           } else {
+                $(".uso-cookies").slideDown(300);
+           }
+    });
+    
+});
 // MOSTRAR LOS ENLACES
 
 $(".mostrar-enlaces").click(function () {
