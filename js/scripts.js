@@ -96,7 +96,7 @@ $(document).ready(function(){
     
     
     $(window).scroll(function(){
-        if( $(this).scrollTop() > 200){
+        if( $(this).scrollTop() > 100){
                 $(".uso-cookies").slideUp(300);
            } else {
                 $(".uso-cookies").slideDown(300);

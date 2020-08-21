@@ -367,9 +367,11 @@ footer ul li a {
     border: 3px Solid #7a2020;
     font-weight: bold;
     font-size: 12px;
+    font-weight: normal;
 }
     .uso-cookies h3{
         font-size: 12px;
+        font-weight: normal;
     }
     .ir-arriba {
         position: fixed;
